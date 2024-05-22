@@ -16,9 +16,10 @@ To install ComfyUI-AutoCropBgTrim, clone the repository and install the dependen
 git clone https://github.com/yourusername/ComfyUI-AutoCropBgTrim.git
 cd ComfyUI-AutoCropBgTrim
 pip install -r requirements.txt
-
+```
 ## Usage
 Here is an example of how to use ComfyUI-AutoCropBgTrim in your project:
+
 
 ```python
 import torch
@@ -42,9 +43,7 @@ cropped_image, cropped_mask, crop_box, box_preview = cropper.run(image, mask, pa
 cropped_image.save('path/to/cropped_image.png')
 cropped_mask.save('path/to/cropped_mask.png')
 box_preview.save('path/to/box_preview.png')
-
-----
-
+```
 ## Class and Methods
 
 The main class provided by ComfyUI-AutoCropBgTrim is `RonLayersTrimBgUltraV2`. Below are the main methods and their descriptions:
