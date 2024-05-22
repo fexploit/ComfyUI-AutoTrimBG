@@ -18,7 +18,6 @@ cd ComfyUI-AutoCropBgTrim
 pip install -r requirements.txt
 
 ## Usage
-
 Here is an example of how to use ComfyUI-AutoCropBgTrim in your project:
 
 ```python
@@ -43,6 +42,8 @@ cropped_image, cropped_mask, crop_box, box_preview = cropper.run(image, mask, pa
 cropped_image.save('path/to/cropped_image.png')
 cropped_mask.save('path/to/cropped_mask.png')
 box_preview.save('path/to/box_preview.png')
+
+----
 
 ## Class and Methods
 
