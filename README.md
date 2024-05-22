@@ -2,6 +2,8 @@
 
 ComfyUI-AutoCropBgTrim is a powerful tool designed to automatically clean up the background of your images. This tool trims unnecessary spaces and pixels, leaving only the main subject of the image. It generates both a mask and an image output, making it easy to focus on the essential elements. Perfect for enhancing your photos and preparing them for professional use.
 
+![Demo](demo.png)
+
 ## Features
 - Automatically trims backgrounds.
 - Leaves only the main subject.
